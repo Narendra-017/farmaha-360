@@ -1,0 +1,46 @@
+{
+  "name": "farmaha360",
+  "version": "1.0.0",
+  "description": "Farmaha360 is a farmer-to-consumer agri-commerce platform that enables direct crop selling, price insights, AI disease detection, fertilizer ordering, and seamless payments – all in one app.",
+  "keywords": [
+    "Farmers",
+    "Agriculture"
+  ],
+  "homepage": "https://github.com/Narendra-017/farmaha-360#readme",
+  "bugs": {
+    "url": "https://github.com/Narendra-017/farmaha-360/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narendra-017/farmaha-360.git"
+  },
+  "license": "ISC",
+  "author": "Muli Surya Narendra Reddy",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.0",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1",
+    "mongoose-paginate-v2": "^1.9.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.2",
+    "pm2": "^6.0.5",
+    "rate-limiter-flexible": "^7.1.0",
+    "redis": "^4.7.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {}
+}
